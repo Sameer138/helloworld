@@ -11,7 +11,7 @@ if(process.env.SUBDOMAIN){
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write('Hello I am Sameer');
+  res.write('Hello This is a new push');
   res.end();
 }).listen(port);
 
